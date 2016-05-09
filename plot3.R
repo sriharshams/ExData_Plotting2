@@ -1,4 +1,4 @@
-## Course: Exploratory Data Analysis (https://class.coursera.org/exdata-032)
+## Course: Exploratory Data Analysis (https://www.coursera.org/learn/exploratory-data-analysis/)
 ## Assignment: Course Project 2
 ## Author: Sriharsha M S
 ## Question:
