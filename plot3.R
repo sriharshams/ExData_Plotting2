@@ -33,11 +33,11 @@ png(filename='plot3.png', width=1200, height=640, units='px')
 # Print numeric values in fixed notation
 options(scipen=10)
 
-plot3 <- qplot(year, Emissions, data=baltimore_emission_totals, facets = . ~ type) +  
-  geom_line() +
+
+plot3 <- qplot(year, Emissions, data=baltimore_emission_totals, color=type, geom="line") +
+  ggtitle(expression("Baltimore City" ~ PM[2.5] ~ "Emissions by Source Type and Year")) +
   xlab("Year") +
-  ylab('PM2.5 Emissions (tons)') +
-  ggtitle('Total PM2.5 Emissions in Baltimore City')
+  ylab(expression("Total" ~ PM[2.5] ~ "Emissions (tons)"))
 
 print(plot3)
 
